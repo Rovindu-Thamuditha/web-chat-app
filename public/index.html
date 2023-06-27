@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="app">
-        <div class="screen join-screen">
+        <div class="screen join-screen active">
             <div class="form">
                 <h2>Join ChatRoom</h2>
                 <div class="form-input">
@@ -21,7 +21,7 @@
                 </div>
             </div>
         </div>
-        <div class="screen chat-screen active">
+        <div class="screen chat-screen">
             <div class="header">
                 <div class="logo">ChatRoom</div>
                 <button id="exit-channel">Exit Room</button>
@@ -58,8 +58,8 @@
         </div>
     </div>
 
-
     <script type="text/javascript" src="socket.io/socket.io.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
